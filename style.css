@@ -1,0 +1,357 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* blog-section code start here */
+.blog-section{
+    padding-bottom: 5px;
+    background-color: #1FA863;
+    /* background-color: #1573a2; */
+    margin-top: 0;
+}
+.blog-section-title{
+    text-align: center;
+}
+.blog-section-title{
+    margin-bottom: 20px;
+}
+.all-blog-box-parent{
+    padding-top: 20px;
+    margin-top: 0;
+    
+     width: 300px; 
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); */
+    margin: auto;
+    /* grid-gap:25px */
+
+}
+.blog-section-single-div{
+    position: relative;
+}
+.blog-section-single-div:hover .blog-icon-div{
+    opacity: 1;
+    background: #00000038;
+}
+
+  
+.image-blog{
+    max-width: 100%;
+    height: 250px;
+    transition: 1s;
+}
+.single-iteam-text{
+    text-align: center;
+    color: #437493;
+
+}
+.single-iteam-text> p{
+    color: gray;
+    margin-top: 4px;
+    letter-spacing: 0.2em;
+}
+.blog-section-single-div{
+    overflow: hidden;
+}
+.blog-image-icon-div:hover .image-blog{
+    transform: scale(1.7);
+
+}
+.blog-icon-div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    opacity: 0;
+    transition: 1s;
+}
+.blog-icon-div> img{
+    width: 50px;
+    margin-left: 40%;
+    margin-bottom: 16px;
+
+}
+/* flower-section-card code here */
+
+
+.fort-section-area{
+    background-color:wheat;
+    padding:3px;
+}
+.all-card-parent{
+
+    margin: auto;
+    
+}
+.fourth-section-heading{
+    text-align: center;
+    font-size: 45px;
+    padding:  5px;
+}
+.card-area-main-content{
+    
+    margin: auto;
+  
+ text-align: center;
+
+
+}
+
+.card-image-area{
+    width: 300px;
+    
+    
+}
+.card-image-area> img{
+    max-width: 100%;
+
+
+
+}
+.three-card-parent{
+    width: 300px;
+    margin: auto;
+    
+    
+    color: #fff;
+    text-shadow: #830707;
+    font-style: italic;
+    margin-bottom: 5px;
+     background: #4d204c;
+    
+    
+}
+.p-heading{
+    color:wheat;
+    font-weight: bold;
+    
+}
+.last-p-tag{
+    color: rgba(128, 128, 128, 0.245);
+    letter-spacing: 3px;
+    font-style: normal;
+    font-size: 10px;
+    padding: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+    
+}
+
+
+.jui-text{
+    color: rgba(255, 255, 0, 0.57);
+}
+.three-card-parent> h3{
+    text-align: center;
+    margin: 10px 0;
+    font-style: italic;
+    font-weight: bold;
+}
+.pricing-area{
+    border-top: 1px dashed gray;
+    border-bottom: 1px dashed gray;
+    margin: 30px 20px;
+    padding: 10px 0;
+}
+.dullar-pricing-span1{
+    font-size: 30px;
+    transition: 1s;
+}
+.dullar-pricing-span1:hover{
+    color: red;
+}
+.three-card-parent> p{
+     text-align: center; 
+
+}
+
+
+.three-card-parent> button{
+    background-color:#1E3050;
+    color:black;
+    padding: 3px 40px;
+    border-radius: 40px 7px 40px 7px;
+    border: none;
+    cursor: pointer;
+    font-weight:bolder;
+    border: 2px solid #101010;
+    transition: 0.5s;
+}
+.three-card-parent> button i{
+    font-size: 30px;
+    color:#fff;
+}
+.three-card-parent> button:hover{
+    opacity: 0.5;
+}
+.three-card-parent> a {
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+
+
+
+/* section-six-paralax code start here */
+
+
+
+
+
+/* section-six-paralax code start here */
+
+.paralax-section-six{
+
+   background-image: url("images/parallax.jpg");
+   background-attachment: fixed;
+   background-position: center;
+   background-size: cover;
+   width: 300px;
+   margin: auto;
+   margin-bottom:2px ;
+   padding-top: 05px;
+}
+.section-six-parallax-parent{
+     display: grid; 
+     grid-template-columns: repeat(2,1fr);
+     width: 300px;
+     padding-top: 5px;
+     
+   
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+    justify-content: space-between; 
+    color: white;
+    
+}
+
+.paralax-single-area>  i{
+    font-size: 40px;
+    margin-top: 30px;
+     transition: 0.5s;
+
+
+}
+.paralax-single-area> i:hover{
+    
+    transform: scale(1.3);
+}
+
+.paralax-single-area> h5{
+
+    margin: 20px 0;
+}
+/* box shadaw main area code here */
+
+.box-content{
+   
+
+
+    padding: 20px ;
+    justify-content: space-between;
+    background-color:black;
+    color: white;
+    
+}
+
+
+.first-box{
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ffffff09;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s;
+    
+}
+.first-box> p{
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+.first-box> h3{
+    margin: 15px 0;
+    font-style: italic;
+}
+.first-box> i{
+    font-size: 40px;
+}
+.first-box:hover{
+    box-shadow: 3px 3px 16px;
+}
+.secound-box{
+    
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ffffff09;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+ 
+}
+.secound-box> p{
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+.secound-box> h3{
+    margin: 15px 0;
+    font-style: italic;
+}
+.secound-box> i{
+    font-size: 40px;
+    
+}
+.secound-box:hover{
+    box-shadow: 3px 3px 16px; 
+}
+
+.third-box{
+    width: 300px;
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 30px;
+    border: 1px solid #ffffff09;
+    text-align: center;
+    cursor: pointer;
+    transition: 1s;
+}
+.third-box> p{
+    text-align: justify;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+
+}
+.third-box> h3{
+    margin: 15px 0;
+    font-style: italic;
+}
+.third-box> i{
+    font-size: 40px;
+}
+.third-box:hover{
+    box-shadow: 3px 3px 16px ;
+
+}
+
+
+
+
+
+
